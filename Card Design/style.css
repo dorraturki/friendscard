@@ -1,0 +1,97 @@
+:root{
+    --mobile: 375px;
+    --desktop: 1440px;
+    --darkcyan : hsl(185, 75%, 39%);
+    --darkflatblue: hsl(229, 23%, 23%);
+    --darkgrayishblue: hsl(227, 10%, 46%);
+    --darkgrey: hsl(0, 0%, 59%);
+    --fontsize: 18px;
+    --font: 'Kumbh Sans', sans-serif;
+    /* * weight: 400 - 700 */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--darkcyan);
+    position: relative;
+}
+.top{
+    position: fixed;
+    top: -450px;
+    left: -10px;
+}
+.bottom{
+    position: fixed;
+    bottom: -450px;
+    right: -30px;
+}
+.card{
+    position: fixed;
+    background-color: white;
+    width: 22rem;
+    border-radius: 15px;
+    top: 250px;
+    left: 750px;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+    box-shadow: 1.5px 3px 7px var(--darkgrayishblue) ;
+}
+.card .pattern img{
+    border-radius: 15px 15px 0px 0px;
+    width: 22rem;
+}
+.card .img-prf img {
+    border-radius: 50%;
+    position: fixed;
+    top: 350px;
+    margin-left: 125px;
+    border: 5px solid white;
+}
+.card .main {
+    height: 120px;
+    padding-top: 90px;
+    display: flex;
+    font-size: 20px;
+}
+.card .main h4 {
+    font-weight: 700;
+    color: var(--darkflatblue);
+    padding-left: 100px;
+}
+.card .main h5 {
+    padding-left: 10px;
+    padding-top: 1px;
+    font-size: var(--fontsize);
+    font-weight: 400;
+    color: var(--darkgrayishblue);
+}
+.card .desc{
+    padding-bottom: 30px;
+    padding-left: 150px;
+    font-size: 20px;
+    color: var(--darkgrey);
+}
+.card .desc h6 {
+    font-weight: 500;
+}
+.card .numbs{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.card .numbs h5{
+    font-weight: 400;
+    color: var(--darkgrayishblue);
+    margin-top: 1px;
+}
+.card .part{
+    margin-left: 40px;
+}
+.card .numbs h4{
+    color: var(--darkflatblue);
+}
